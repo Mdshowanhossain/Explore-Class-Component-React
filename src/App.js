@@ -7,6 +7,9 @@ import State from './Component/Class/State';
 import State2 from './Component/Class/State2';
 import State3 from './Component/Class/State3';
 import State4 from './Component/Class/State4';
+import Condition from './Component/Class/Condition';
+import Condition2 from './Component/Class/Condition2';
+import Refresh from './Component/Class/Refresh';
 
 
 
@@ -19,7 +22,6 @@ function App() {
       <Function1 name="Osman" age="20" />
       <ButtonClickF /><br />
 
-
       <Class1 name="Class-5" age="44" />
       <Class1 name="Class-6" age="45" />
       <ButtonClick /> */}
@@ -29,7 +31,15 @@ function App() {
       {/* <State2 /> */}
 
       {/* <State3 /> */}
-      <State4 />
+
+      {/* <State4 /> */}
+
+
+      {/* <Condition /> */}
+
+      {/* <Condition2 /> */}
+
+      <Refresh />
 
     </div>
   );

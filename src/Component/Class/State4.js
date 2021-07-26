@@ -10,16 +10,10 @@ class State4 extends Component {
             name: 'SOHAN',
             age: '20'
         }
-
     }
-
-
     ChangeName(a) {
         this.setState({ name: a })
     }
-
-
-
     render() {
         // const ChangeName = (a) => {
         //     this.setState = { name: a }

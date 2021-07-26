@@ -4,8 +4,6 @@ import React, { Component } from "react";
 class State3 extends Component {
 
     constructor() {
-
-
         super();
 
         let myObj = {

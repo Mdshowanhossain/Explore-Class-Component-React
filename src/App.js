@@ -6,6 +6,8 @@ import ButtonClickF from './Component/Function/ButtonClickF';
 import State from './Component/Class/State';
 import State2 from './Component/Class/State2';
 import State3 from './Component/Class/State3';
+import State4 from './Component/Class/State4';
+
 
 
 
@@ -26,7 +28,8 @@ function App() {
 
       {/* <State2 /> */}
 
-      <State3 />
+      {/* <State3 /> */}
+      <State4 />
 
     </div>
   );

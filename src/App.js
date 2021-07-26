@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Function1 from './Component/Function/Function1';
+import Class1 from './Component/Class/Class1';
+import ButtonClick from './Component/Class/ButtonClick';
+import ButtonClickF from './Component/Function/ButtonClickF';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Function1 name="Sohan" age="20" />
+      <Function1 name="Osman" age="20" />
+      <ButtonClickF /><br />
+
+
+      <Class1 name="Class-5" age="44" />
+      <Class1 name="Class-6" age="45" />
+      <ButtonClick />
+
+
+
+
+
     </div>
   );
 }

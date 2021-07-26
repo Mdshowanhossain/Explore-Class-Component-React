@@ -8,12 +8,9 @@ class Refresh extends Component {
 
         this.refreshTheNumber = this.refreshTheNumber.bind(this);
     }
-
-
     refreshTheNumber() {
         this.forceUpdate();
     }
-
     render() {
         return (
             <div>

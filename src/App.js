@@ -10,6 +10,8 @@ import State4 from './Component/Class/State4';
 import Condition from './Component/Class/Condition';
 import Condition2 from './Component/Class/Condition2';
 import Refresh from './Component/Class/Refresh';
+import ReactDomRender from './Component/Class/ReactDomRender';
+import ReactHydreteMethod from './Component/Class/ReactHydreteMethod';
 
 
 
@@ -34,12 +36,15 @@ function App() {
 
       {/* <State4 /> */}
 
-
       {/* <Condition /> */}
 
       {/* <Condition2 /> */}
 
-      <Refresh />
+      {/* <Refresh /> */}
+
+      {/* <ReactDomRender /> */}
+
+      <ReactHydreteMethod />
 
     </div>
   );

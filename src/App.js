@@ -24,6 +24,8 @@ import JsonListItem from './Component/Class/JsonListItem';
 import ReactRouter from './Component/Class/ReactRouter';
 import CssParent from './Component/CssStyles/CssParent';
 import Sass from './Component/SASS/Sass';
+import GetData from './Component/LoadData/GetData';
+import PostData from './Component/LoadData/PostData';
 
 
 
@@ -80,7 +82,11 @@ function App() {
 
       {/* <CssParent /> */}
 
-      <Sass />
+      {/* <Sass /> */}
+
+      {/* <GetData /> */}
+
+      <PostData />
 
     </div>
   );

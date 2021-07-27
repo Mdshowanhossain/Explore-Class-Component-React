@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './first.scss';
 
 export default class Sass extends Component {
+
     render() {
         return (
             <div>

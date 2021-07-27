@@ -17,6 +17,8 @@ import SingleInputForm from './Component/Class/SingleInputForm';
 import EventHandling from './Component/Class/EventHandling';
 import MultipleInputs from './Component/Class/MultipleInputs';
 import FormValidation from './Component/Class/FormValidation';
+import TextArea from './Component/Class/TextArea';
+import SelectOption from './Component/Class/SelectOption';
 
 
 
@@ -59,7 +61,11 @@ function App() {
 
       {/* <MultipleInputs /> */}
 
-      <FormValidation />
+      {/* <FormValidation /> */}
+
+      {/* <TextArea /> */}
+
+      <SelectOption />
     </div>
   );
 }

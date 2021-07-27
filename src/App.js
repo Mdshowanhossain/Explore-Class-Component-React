@@ -12,6 +12,8 @@ import Condition2 from './Component/Class/Condition2';
 import Refresh from './Component/Class/Refresh';
 import ReactDomRender from './Component/Class/ReactDomRender';
 import ReactHydreteMethod from './Component/Class/ReactHydreteMethod';
+import FindDomNode from './Component/Class/FindDomNode';
+import SingleInputForm from './Component/Class/SingleInputForm';
 
 
 
@@ -44,7 +46,11 @@ function App() {
 
       {/* <ReactDomRender /> */}
 
-      <ReactHydreteMethod />
+      {/* <ReactHydreteMethod /> */}
+
+      {/* <FindDomNode /> */}
+
+      <SingleInputForm />
 
     </div>
   );

@@ -11,16 +11,20 @@ export default class SelectOption extends Component {
             city4: 'Chittagong',
             city5: 'Rongpur',
             city6: 'Rajshahi',
-            SelectCity: ''
+            selectCity: ''
         };
     }
 
 
+    onChangeHandler = (e) => {
+        let selectedCity = e.target.value;
+    }
 
     render() {
         return (
             <div><br /><br />
-                <select value={this.state.SelectCity}>
+                <h1>{this.state.selectCity}</h1>
+                <select onChange={this.onChangeHandler} value={this.state.selectCity}>
                     <option value="">{this.state.city1}</option>
                     <option value="">{this.state.city2}</option>
                     <option value="">{this.state.city3}</option>

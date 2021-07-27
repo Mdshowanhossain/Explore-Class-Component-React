@@ -15,6 +15,8 @@ import ReactHydreteMethod from './Component/Class/ReactHydreteMethod';
 import FindDomNode from './Component/Class/FindDomNode';
 import SingleInputForm from './Component/Class/SingleInputForm';
 import EventHandling from './Component/Class/EventHandling';
+import MultipleInputs from './Component/Class/MultipleInputs';
+import FormValidation from './Component/Class/FormValidation';
 
 
 
@@ -53,7 +55,11 @@ function App() {
 
       {/* <SingleInputForm /> */}
 
-      <EventHandling />
+      {/* <EventHandling /> */}
+
+      {/* <MultipleInputs /> */}
+
+      <FormValidation />
     </div>
   );
 }

@@ -23,6 +23,7 @@ import ListItem from './Component/Class/ListItem';
 import JsonListItem from './Component/Class/JsonListItem';
 import ReactRouter from './Component/Class/ReactRouter';
 import CssParent from './Component/CssStyles/CssParent';
+import Sass from './Component/SASS/Sass';
 
 
 
@@ -77,7 +78,9 @@ function App() {
 
       {/* <ReactRouter /> */}
 
-      <CssParent />
+      {/* <CssParent /> */}
+
+      <Sass />
 
     </div>
   );

@@ -1,0 +1,15 @@
+$color: white;
+$backColor: red;
+$fontSize: 54px;
+$fontW: bold;
+$margin: 44px;
+$padding: 44px;
+
+.myTextStyle {
+  color: $color;
+  background-color: $backColor;
+  font-size: $fontSize;
+  font-weight: $fontW;
+  margin: $margin;
+  padding: $padding;
+}

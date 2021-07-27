@@ -22,6 +22,7 @@ import SelectOption from './Component/Class/SelectOption';
 import ListItem from './Component/Class/ListItem';
 import JsonListItem from './Component/Class/JsonListItem';
 import ReactRouter from './Component/Class/ReactRouter';
+import CssParent from './Component/CssStyles/CssParent';
 
 
 
@@ -74,7 +75,9 @@ function App() {
 
       {/* <JsonListItem /> */}
 
-      <ReactRouter />
+      {/* <ReactRouter /> */}
+
+      <CssParent />
 
     </div>
   );

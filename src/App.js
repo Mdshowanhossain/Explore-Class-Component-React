@@ -14,6 +14,7 @@ import ReactDomRender from './Component/Class/ReactDomRender';
 import ReactHydreteMethod from './Component/Class/ReactHydreteMethod';
 import FindDomNode from './Component/Class/FindDomNode';
 import SingleInputForm from './Component/Class/SingleInputForm';
+import EventHandling from './Component/Class/EventHandling';
 
 
 
@@ -50,8 +51,9 @@ function App() {
 
       {/* <FindDomNode /> */}
 
-      <SingleInputForm />
+      {/* <SingleInputForm /> */}
 
+      <EventHandling />
     </div>
   );
 }

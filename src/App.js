@@ -19,6 +19,7 @@ import MultipleInputs from './Component/Class/MultipleInputs';
 import FormValidation from './Component/Class/FormValidation';
 import TextArea from './Component/Class/TextArea';
 import SelectOption from './Component/Class/SelectOption';
+import ListItem from './Component/Class/ListItem';
 
 
 
@@ -65,7 +66,10 @@ function App() {
 
       {/* <TextArea /> */}
 
-      <SelectOption />
+      {/* <SelectOption /> */}
+
+      <ListItem />
+
     </div>
   );
 }

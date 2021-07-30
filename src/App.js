@@ -106,9 +106,9 @@ function App() {
 
       {/* <UseState /> */}
 
-      <Home />value="-- I am in PassBy Props" />
+      {/* <Home />value="-- I am in PassBy Props" />
       <About />
-      <Contact value="--I am in By Props." />
+      <Contact value="--I am in By Props." /> */}
 
 
 

@@ -92,7 +92,10 @@ function App() {
 
       {/* <Table /> */}
 
-
+      {/* <BrowserRouter> */}
+      {/* <ParentNav /> */}
+      {/* <ParentRoute /> */}
+      {/* </BrowserRouter> */}
 
     </div>
   );

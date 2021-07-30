@@ -26,6 +26,7 @@ import CssParent from './Component/CssStyles/CssParent';
 import Sass from './Component/SASS/Sass';
 import GetData from './Component/LoadData/GetData';
 import PostData from './Component/LoadData/PostData';
+import Table from './Component/ReactTable/Table';
 
 
 
@@ -86,7 +87,9 @@ function App() {
 
       {/* <GetData /> */}
 
-      <PostData />
+      {/* <PostData /> */}
+
+      {/* <Table /> */}
 
     </div>
   );

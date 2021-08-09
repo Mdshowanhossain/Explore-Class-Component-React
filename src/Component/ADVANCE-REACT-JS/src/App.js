@@ -1,8 +1,9 @@
 import React from 'react';
 import FormHandle from './Components/Formahandle/FormHandle';
-import CalculatorBoilWater from './Components/LifeTingStateUp/CalculatorBoilWater';
 import Clock from './Components/StateLifeCycle/Clock/Clock';
 import ClockList from './Components/StateLifeCycle/Clock/ClockList';
+import CalculatorBoilWater from './Components/LiftingStateUp/CalculatorBoilWater';
+
 const App = () => {
 
   // let quantities = [1, 2, 3, 4];
@@ -20,10 +21,9 @@ const App = () => {
       {/* <-----------------FORM HANDLING END-----------------------> */}
 
       {/* <-----------------LIFTING STATE UP-----------------------> */}
-          <CalculatorBoilWater />
+      {/* <CalculatorBoilWater /> */}
       {/* <-----------------LIFTING STATE UP END-----------------------> */}
 
-    
 
     </div>
   );

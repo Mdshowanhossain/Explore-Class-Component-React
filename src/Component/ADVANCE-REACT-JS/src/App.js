@@ -20,10 +20,10 @@ const App = () => {
       {/* <-----------------FORM HANDLING END-----------------------> */}
 
       {/* <-----------------LIFTING STATE UP-----------------------> */}
-
+          <CalculatorBoilWater />
       {/* <-----------------LIFTING STATE UP END-----------------------> */}
 
-      <CalculatorBoilWater />
+    
 
     </div>
   );
